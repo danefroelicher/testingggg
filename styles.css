@@ -1,0 +1,35 @@
+body {
+    background-image: url('IMG_9621.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover; /* Adjust how the image covers the entire background */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-attachment: fixed; /* Fixed background for scrolling content */
+}
+.center{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 60%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content-wrapper {
+    overflow: hidden; /* Clear the float */
+  }
+  
+  .centered-image {
+    float: left;
+    margin-right: 20px; /* Adjust as needed for spacing between image and text */
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+  }
+  
+  .text-content {
+    margin-top: 0; /* Remove default margin */
+  }
+  
+  /* Add your additional styling as needed */
+  
